@@ -41,7 +41,7 @@ Skills that spawn subagents point to the Subagents section of `poteto-mode` to p
 
 ## What this mirror changes
 
-Many skills were Cursor-specific. They've been rewritten to work in any harness. The repo also ships a ZCode plugin manifest (`.zcode-plugin/plugin.json`) so the whole set installs as one ZCode plugin (skills and agents) alongside the other harnesses.
+Many skills were Cursor-specific. They've been rewritten to work in any harness. The repo also ships a ZCode plugin manifest (`.zcode-plugin/plugin.json`) plus a root `marketplace.json`, so the whole set installs as one ZCode plugin straight from this repo: add `https://github.com/hi-fangj/pstack-plugin` as a plugin marketplace and install `pstack`.
 <!-- mirror:end -->
 
 ---

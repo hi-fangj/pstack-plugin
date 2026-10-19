@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pstack-plugin",
+  "description": "pstack skills as one ZCode plugin: rigorous, parallelizable agent workflows. if you want to go fast, go deep first.",
+  "owner": {
+    "name": "fangj",
+    "url": "https://github.com/hi-fangj"
+  },
+  "plugins": [
+    {
+      "name": "pstack-plugin",
+      "source": "./",
+      "version": "0.15.25",
+      "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+      "displayName": "pstack",
+      "displayName_i18n": {
+        "zh-CN": "pstack 技能集"
+      },
+      "description_i18n": {
+        "zh-CN": "如果你想走得快，请先走得深。pstack 帮你写更少但质量更高的代码：一套严谨、可放心并行的智能体工作流技能。"
+      },
+      "category": "developer-tools"
+    }
+  ]
+}
