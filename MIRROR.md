@@ -1,6 +1,6 @@
 # Syncing this mirror
 
-This repo mirrors [`cursor/plugins/pstack`](https://github.com/cursor/plugins/tree/main/pstack) and adds its own edits: the top of `README.md` and harness-neutral rewrites in some skills.
+This repo mirrors [`cursor/plugins/pstack`](https://github.com/cursor/plugins/tree/main/pstack) and adds its own edits: the top of `README.md`, harness-neutral rewrites in some skills, and the ZCode plugin wrapper (`.zcode-plugin/plugin.json`, plus ZCode lines in `agents/poteto-agent.md` and the harness mappings of some skills). The ZCode files live only on `main`, like MIRROR.md itself.
 
 Two branches keep those edits safe:
 

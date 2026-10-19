@@ -26,6 +26,7 @@ Where the transcript lives depends on your harness:
 - **Claude Code:** `~/.claude/projects/<slug>/<session-id>.jsonl`, where `<slug>` is the workspace path with every character that isn't a letter or digit turned into "-".
 - **Pi:** `~/.pi/agent/sessions/--<slug>--/*.jsonl`, where `<slug>` is the workspace path with the leading slash dropped and each "/" turned into "-".
 - **Codex:** `~/.codex/sessions/YYYY/MM/DD/rollout-*.jsonl`. Keep only files whose first line has `payload.cwd` equal to the workspace path.
+- **ZCode:** transcripts are host-managed. Use the `ReadSessionContext` tool against the current session to pull this conversation's recent context instead of reading a transcript file.
 - **Other harnesses:** check the harness's session directory for this workspace.
 
 Outside Cursor, take the newest candidates first and confirm one by finding the conversation's opening user prompt in its first user message. If none matches, pass a tight digest of the session instead.
